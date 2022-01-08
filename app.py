@@ -38,12 +38,14 @@ major_list = [
     0,
     4,
     7,
+    11,
 ]
 
 minor_list = [
     9,
     0,
     4,
+    7,
 ]
 
 
@@ -60,6 +62,7 @@ def main(is_major, ans_num):
         my_list.extend(minor_list)
         my_list.extend(minor_list)
 
+    my_list.extend(natural_list)
     my_list.extend(natural_list)
     my_list.extend(natural_list)
     my_list.extend(alter_list)
