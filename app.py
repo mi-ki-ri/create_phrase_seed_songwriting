@@ -53,8 +53,10 @@ def main(is_major, ans_num):
     if is_major:
         my_list.extend(major_list)
         my_list.extend(major_list)
+        my_list.extend(major_list)
 
     else:
+        my_list.extend(minor_list)
         my_list.extend(minor_list)
         my_list.extend(minor_list)
 
